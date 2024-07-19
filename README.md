@@ -33,7 +33,7 @@ This project is a set of automated tests for REST API endpoints, utilizing NUnit
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd RestAPISampleAutoTests
     ```
 3. Restore the project dependencies:
     ```bash

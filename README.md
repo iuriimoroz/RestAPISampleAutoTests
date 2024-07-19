@@ -29,7 +29,7 @@ This project is a set of automated tests for REST API endpoints, utilizing NUnit
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/iuriimoroz/RestAPISampleAutoTests.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -38,7 +38,7 @@ This project is a set of automated tests for REST API endpoints, utilizing NUnit
 3. Restore the project dependencies:
     ```bash
     dotnet restore
-    	```
+    ```
 This command will execute all the tests in the /Tests folder and report the results in the terminal.
 
 ### Configuration
@@ -50,7 +50,7 @@ This command will execute all the tests in the /Tests folder and report the resu
 To run the tests, use the following command:
 ```bash
 dotnet test
-    ```
+```
 This command will execute all the tests in the /Tests folder and report the results in the terminal.
 
 ## Test Cases

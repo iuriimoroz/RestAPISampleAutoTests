@@ -1,15 +1,18 @@
 ﻿using Newtonsoft.Json.Linq;
 using RestSharp;
 
-public static class ApiClient
+namespace RestAPISampleAutoTests.Utils
 {
-    public static IRestResponse SendRequest(string url, IRestRequest request)
+    public static class ApiClient
     {
-        return new RestClient(url).Execute(request);
-    }
+        public static IRestResponse SendRequest(string url, IRestRequest request)
+        {
+            return new RestClient(url).Execute(request);
+        }
 
-    public static JObject ParseResponseContent(IRestResponse response)
-    {
-        return JObject.Parse(response.Content);
+        public static JObject ParseResponseContent(IRestResponse response)
+        {
+            return JObject.Parse(response.Content);
+        }
     }
 }

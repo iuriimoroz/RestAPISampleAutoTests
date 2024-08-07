@@ -39,7 +39,6 @@ This project is a set of automated tests for REST API endpoints, utilizing NUnit
     ```bash
     dotnet restore
     ```
-This command will execute all the tests in the /Tests folder and report the results in the terminal.
 
 ### Configuration
 
